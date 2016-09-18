@@ -111,10 +111,10 @@
 
 "vim setting
     "let mapleader = ","                "the special string <Leader> be replaced with the string value of mapleader.  If mapleader is not set or empty, a backslash is used instead.
-    set number							"print line number
-    set relativenumber 					"Show the line number relative to the line with the cursor in front of each line
-    set mouse=a							"mouse work in any mode
-    set tabstop=4						"tab width
-    set shiftwidth=4					"indent width
-    autocmd FileType c,cpp,java,js,py,sh set expandtab | set completeopt-=preview
+    set number                          "print line number
+    set relativenumber                  "Show the line number relative to the line with the cursor in front of each line
+    set mouse=a                         "mouse work in any mode
+    set tabstop=4                       "tab width
+    set shiftwidth=4                    "indent width
+    autocmd FileType c,cpp,java,js,py,sh,vim set expandtab | set completeopt-=preview
 
