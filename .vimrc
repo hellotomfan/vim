@@ -116,5 +116,5 @@
     set mouse=a							"mouse work in any mode
     set tabstop=4						"tab width
     set shiftwidth=4					"indent width
-	autocmd FileType c,cpp,java,js,py,sh set expandtab | set completeopt-=preview
+    autocmd FileType c,cpp,java,js,py,sh set expandtab | set completeopt-=preview
 
