@@ -72,7 +72,7 @@
     let g:ycm_confirm_extra_conf = 0                                    " enable it YCM will ask once per '.ycm_extra_conf.py' file if it is safe to be loaded
     let g:ycm_key_list_select_completion = ['<C-j>', '<C-n>', '<Down>'] " next completion
     let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>'] " previous completion
-    map <F3> :YcmCompleter GoToImprecise<CR>
+    map <F3> :YcmCompleter GoTo<CR>
 
 "tagbar
     " Toggle    :TagbarToggle
