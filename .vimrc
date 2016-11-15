@@ -120,7 +120,7 @@
     let g:EclimCompletionMethod = 'omnifunc'        " use vim's omni code completion instead
 
 "vim setting
-    "let mapleader = ","                "the special string <Leader> be replaced with the string value of mapleader.  If mapleader is not set or empty, a backslash is used instead.
+    let mapleader = ","                "the special string <Leader> be replaced with the string value of mapleader.  If mapleader is not set or empty, a backslash is used instead.
     set number                          "print line number
     set relativenumber                  "Show the line number relative to the line with the cursor in front of each line
     set mouse=a                         "mouse work in any mode
